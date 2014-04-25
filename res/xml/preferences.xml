@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="1"
+        android:key="magnitudeDefault"
+        android:summary="Select the default minimum magnitude"
+        android:title="Magnitude Default"
+        android:entries="@array/magnitudes_array"
+        android:entryValues="@array/magnitudes_values" />
+
+    <ListPreference
+        android:defaultValue="-24"
+        android:key="timeDefault"
+        android:summary="Select the default time"
+        android:title="Time Default"
+        android:entries="@array/times_array"
+        android:entryValues="@array/times_values" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:key="distanceDefault"
+        android:summary="Select the default distance from your current location"
+        android:title="Distance Default"
+        android:entries="@array/distance_array"
+        android:entryValues="@array/distance_values" />
+
+</PreferenceScreen>

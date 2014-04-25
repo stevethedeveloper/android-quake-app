@@ -1,0 +1,1 @@
+04-11 13:24:10.326: E/QuakeFetcher(12354): java.io.FileNotFoundException: http://comcat.cr.usgs.gov/fdsnws/event/1/query?format=geojson&eventid=ak11223365

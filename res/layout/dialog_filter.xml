@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/dialog_filter_magnitude"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/filter_magnitudeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/magnitudes_array"
+        android:entryValues="@array/magnitudes_values" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/dialog_filter_time"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/filter_timeSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/times_array"
+        android:entryValues="@array/times_values" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="@string/dialog_filter_distance"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/filter_distanceSpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/distance_array"
+        android:entryValues="@array/distance_values" />
+
+</LinearLayout>

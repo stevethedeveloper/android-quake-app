@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="times_array">
+        <item>Past 24 hours</item>
+        <item>Past hour</item>
+        <item>Past 7 days</item>
+    </string-array>
+    <string-array name="times_values">
+        <item>-24</item>
+        <item>-1</item>
+        <item>-168</item>
+    </string-array>
+
+</resources>

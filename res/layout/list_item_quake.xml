@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    >
+
+    <TextView
+        android:id="@+id/quake_list_item_magnitudeTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="30sp"
+	    android:textStyle="bold"
+	    android:paddingLeft="4dp" 
+	    android:paddingRight="4dp"
+	    android:text="Quake magnitude" 
+        />
+    
+    <TextView
+        android:id="@+id/quake_list_item_placeTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/quake_list_item_magnitudeTextView"
+	    android:textStyle="bold"
+	    android:paddingLeft="4dp" 
+	    android:paddingRight="4dp"
+	    android:paddingTop="4dp"
+	    android:text="Quake place" 
+        />
+    
+    <TextView
+        android:id="@+id/quake_list_item_dateTextView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/quake_list_item_placeTextView"
+	    android:textStyle="bold"
+	    android:paddingLeft="4dp" 
+	    android:paddingRight="4dp"
+	    android:paddingTop="4dp"
+	    android:text="Quake date" 
+        />
+    
+    
+</RelativeLayout>
