@@ -76,13 +76,13 @@
         <!-- production key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBkEjbLznZ9GU5_PT3S9-qqRQ6BTRHEoMk" />
+            android:value="[removed]" />
 
         <!-- development key -->
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAye4CuaIDelCoz0e7zz5vdLImva6fb-lI" />
+            android:value="[removed]" />
 
         <uses-library android:name="com.google.android.maps" />
     </application>
