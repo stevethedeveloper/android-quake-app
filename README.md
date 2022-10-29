@@ -44,8 +44,6 @@ Technical:
 
 -Fragments - uses fragment design pattern as all apps should
 
--Singleton - to store data fetched from USGS
-
 -Abstract class - for code reuse when setting up Fragments in Activities
 
 -AsyncTask - for fetching data on a separate thread than UI
