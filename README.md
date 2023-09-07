@@ -3,8 +3,6 @@ android-quakes-app
 
 This is an app demonstrating many Android concepts.
 
-It can be downloaded from the play store by searching for "PastMax" or going here:  https://play.google.com/store/apps/details?id=com.pastmax.quakefetcher
-
 Features:
 
 -Compatible with all versions of Android back to version 2.2 for maximum audience 
